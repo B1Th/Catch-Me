@@ -7,7 +7,7 @@ const CatchMe = () => {
   const moveNoButton = () => {
     const newTop = Math.random() * (window.innerHeight - 50);
     const newLeft = Math.random() * (window.innerWidth - 100);
-    setNoPosition({ top: newTop, left: newLeft });
+    setNoPosition({ top: `${newTop}px`, left: `${newLeft}px` });
   };
 
   useEffect(() => {
